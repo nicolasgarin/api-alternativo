@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>BLUECRAB GAMING</title>
+    <link href="estilo.css" rel="stylesheet">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="navegador">
+          <a class="enlace" href="index.html">Inicio</a>
+          <a class="enlace" href="minijuegos.html">Minijuegos</a>
+          <a class="enlace" href="juegos.html">Productos</a>
+          <a class="enlace" href="cart.html">Mi carrito</a>
+        </div>
+    </nav>
+    <h3>Nuestros juegos</h3>
+    <button onclick="cargarlistadojuegos(JUEGOS_URL)">Listado de juegos</button>
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    Nombre
+                </th>
+                <th>
+                    Año
+                </th>
+                <th>
+                    Descripción
+                </th>
+                <th>
+                    Precio
+                </th>
+                <th>
+                    Img
+                </th>
+            </tr>
+        </thead>
+        <tbody id="tablajuegos"></tbody>
+    </table>
+</body>
+</html>

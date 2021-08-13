@@ -1,24 +1,11 @@
-{
-    "Id":"135",
-    "Nombre":"Crabby en la selva",
-    "Año":"2016",
-    "Descripción":"Crabby se pierde en la selva y deberá superar un montón de obstáculos para volver a su hogar.",
-    "Imagen":"img/Crabby_en_la_selva.jpg",
-    "Precio":"$35"
-}
-{
-    "Id":"177",
-    "Nombre":"Crabby y la aventura del desierto",
-    "Año":"2018",
-    "Descripción":"Un mago le realiza un hechizo a Crabby que hace que se encuentre en medio del desierto lejos de su casa. Deberá resolver el misterio de la pirámide para lograrlo,",
-    "Imagen":"img/Crabby_y_la_aventura_del_desierto.jpg",
-    "Precio":"$40"
-}
-{
-    "Id":"202",
-    "Nombre":"Halloween en pueblo cangrejo",
-    "Año":"2020",
-    "Descripción":"Llega Halloween a pueblo cangrejo y un misterioso fantasma acecha a los habitantes. ¿Podrán Crabby y sus amigos descifrar el enigma?",
-    "Imagen":"img/Halloween_en_pueblo_cangrejo.jpg",
-    "Precio":"$50"
-}
+[
+    {
+        "id":"135"
+    },
+    {
+        "id":"177"
+    },
+    {
+        "id":"202"
+    }
+]

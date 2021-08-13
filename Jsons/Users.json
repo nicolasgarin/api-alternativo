@@ -1,25 +1,27 @@
-{
-    "Username":"Tincho43",
-    "Nombre":"Martin Rodriguez",
-    "Dirección":"Martin C Martinez 2318 bis",
-    "Fecha-nacimiento":"11/08/1996",
-    "Teléfono":"098885588",
-    "Email":"martinr@gmail.com"
-}
-{
-    "Username":"Darksoul_1",
-    "Nombre":"Mirta Techera",
-    "Dirección":"Av Italia 1555 Ap.103",
-    "Fecha-nacimiento":"01/01/2000",
-    "Teléfono":"091447585",
-    "Email":"mirtibolso@hotmail.com"
-}
-{
-    "Username":"Maxibolso1899",
-    "Nombre":"Maximiliano Mendez",
-    "Dirección":"8 de Octubre 1221",
-    "Fecha-nacimiento":"22/03/1990",
-    "Teléfono":"096585866",
-    "Email":"maxicndef1899@gmail.com"
-}
+[
+    {
+        "Username":"Tincho43",
+        "Nombre":"Martin Rodriguez",
+        "Dirección":"Martin C Martinez 2318 bis",
+        "Fecha-nacimiento":"11/08/1996",
+        "Teléfono":"098885588",
+        "Email":"martinr@gmail.com"
+    },
+    {
+        "Username":"Darksoul_1",
+        "Nombre":"Mirta Techera",
+        "Dirección":"Av Italia 1555 Ap.103",
+        "Fecha-nacimiento":"01/01/2000",
+        "Teléfono":"091447585",
+        "Email":"mirtibolso@hotmail.com"
+    },
+    {
+        "Username":"Maxibolso1899",
+        "Nombre":"Maximiliano Mendez",
+        "Dirección":"8 de Octubre 1221",
+        "Fecha-nacimiento":"22/03/1990",
+        "Teléfono":"096585866",
+        "Email":"maxicndef1899@gmail.com"
+    }
+]
 
