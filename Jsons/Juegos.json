@@ -1,11 +1,26 @@
 [
     {
-        "id":"135"
+        "id":"135",
+        "nombre":"Crabby en la selva",
+        "anio":"2016",
+        "descripcion":"Tras una intensa tormenta Crabby aparece en el medio de la selva. Deberá sortear muchos obstáculos para regresar sano y salvo a su casa.",
+        "precio":"35",
+        "img":"img/Crabby_en_la_selva.jpg"
     },
     {
-        "id":"177"
+        "id":"177",
+        "nombre":"Crabby y el misterio de la pirámide",
+        "anio":"2017",
+        "descripcion":"Un mago oscuro envía a Crabby a Egipto para resolver el misterio de la pirámide. ¿Podrá Crabby descubrir qué pasó con las gemas del trono?",
+        "precio":"40",
+        "img":"img/Crabby_misterio_piramide.jpg"
     },
     {
-        "id":"202"
+        "id":"202",
+        "nombre":"Halloween llega a pueblo cangrejo",
+        "anio":"2020",
+        "descripcion":"Halloween llega a pueblo cangrejo. Y con ello, nuevos misterios que resolver. Ayda a Crabby y sus amigos a desenmascarar al fantasma que azota a la ciudad.",
+        "precio":"50",
+        "img":"img/Halloween_pueblo_cangrejo.jpg"
     }
 ]
