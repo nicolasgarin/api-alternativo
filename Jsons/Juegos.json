@@ -1,6 +1,22 @@
 [
     {
-        "id":"135",
+        "id":"34",
+        "nombre":"Las aventuras de Crabby el cangrejo",
+        "anio":"2014",
+        "descripcion":"Crabby es un cangrejo azul diferente a los demás cangrejos. Sus ganas de conocer a su familia y su origen lo llevará a embarcarse a una aventura para descubrirse a sí mismo.",
+        "precio":"35",
+        "img":"img/CrabbyI.jpg"
+    },
+    {
+        "id":"35",
+        "nombre":"Las aventuras de Crabby el cangrejo II",
+        "anio":"2014",
+        "descripcion":"La aventura continúa. Acompaña a Crabby a liberar a su familia y amigos de la amenaza de las gaviotas.",
+        "precio":"30",
+        "img":"img/CrabbyII.jpg"
+    },
+    {
+        "id":"129",
         "nombre":"Crabby en la selva",
         "anio":"2016",
         "descripcion":"Tras una intensa tormenta Crabby aparece en el medio de la selva. Deberá sortear muchos obstáculos para regresar sano y salvo a su casa.",
