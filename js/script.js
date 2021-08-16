@@ -17,8 +17,8 @@ function cargarlistadojuegos(url) {
                         <td>`  + listado[i].nombre + ` </td>
                         <td>`  + listado[i].anio + ` </td>
                         <td>`  + listado[i].descripcion + ` </td>
-                        <td>`  + listado[i].precio + ` </td>
-                        <td>` + listado[i].img + `</td>
+                        <td>USD `  + listado[i].precio + ` </td>
+                        <td><img src=` + listado[i].img + `></td>
                     </tr>
                     ` ;
                 document.getElementById("tablajuegos").innerHTML += row;
