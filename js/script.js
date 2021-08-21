@@ -15,10 +15,10 @@ function cargarlistadojuegos(url) {
                 row = ` 
                     <tr>
                         <td>`  + listado[i].nombre + ` </td>
-                        <td>`  + listado[i].anio + ` </td>
-                        <td>`  + listado[i].descripcion + ` </td>
-                        <td>USD `  + listado[i].precio + ` </td>
-                        <td><img src=` + listado[i].img + `></td>
+                        <td style="width: 50px;background-color: rgb(161, 155, 241);">`  + listado[i].anio + ` </td>
+                        <td style="width: 400px;">`  + listado[i].descripcion + ` </td>
+                        <td style="width: 50px;background-color: rgb(161, 155, 241);">USD `  + listado[i].precio + ` </td>
+                        <td><img style="height:150px;" src=` + listado[i].img + `></td>
                     </tr>
                     ` ;
                 document.getElementById("tablajuegos").innerHTML += row;

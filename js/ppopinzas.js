@@ -21,7 +21,7 @@ function sumaPts(elemPlayer,elemJuego) {
   } else if (esMejor(elemJuego,elemPlayer)) {
     ptsJuego += 1;
     document.getElementById("fox").src = "img/fox2.jpg";
-    document.getElementById("bmo").src = "img/bmo3.png";
+    document.getElementById("bmo").src = "img/crabby.png";
     setTimeout(restablececharacter,2000);
   }
 }
@@ -33,7 +33,7 @@ function restablece() {
 
 function restablececharacter() {
   document.getElementById("fox").src = "img/fox1.jpg";
-  document.getElementById("bmo").src = "img/bmo1.jpg"
+  document.getElementById("bmo").src = "img/crabby.jpg"
 }
 function ganador() {
   if (ptsPlayer === 5) {
