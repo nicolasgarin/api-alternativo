@@ -1,30 +1,43 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>BLUECRAB GAMING</title>
-    <link href="estilo.css" rel="stylesheet">
-    <script src="script.js"></script>
-    <script src="js/ppopinzas.js"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>BLUECRAB GAMES</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="css/estilo.css" rel="stylesheet">
+  <script src="script.js"></script>
+  <script src="js/ppopinzas.js"></script>
 
 </head>
-<body>
-    <nav>
-        <div class="navegador">
-          <a class="enlace" href="index.html">Inicio</a>
-          <a class="enlace" href="minijuegos.html">Minijuegos</a>
-          <a class="enlace" href="nuestrosjuegos.html">Nuestros juegos</a>
-          <a class="enlace" href="cart.html">Mi carrito</a>
-        </div>
-    </nav>
+<body style="background-image: url(img/background.jpg);">
+    <div>
+        <nav class="navbar navbar-expand-sm bg-primary navbar-dark">       
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="minijuegos.html">Minijuegos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="nuestrosjuegos.html">Nuestros juegos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contacto</a>
+                </li>
+              </ul>
+        </nav>
+    </div>
     <h3><button style="float: left;width: 50px;"><a href="minijuegos.html">Volver</a></button>
         Piedra, Papel o Pinzas!</h3>
+        <div class="container">
     <p>El primer jugador en llegar a 5 puntos ganará la partida!</p>
 <br>
 <div id="options" style="text-align: center;">
     <img id="bmo" class="character" src="img/crabby.jpg" style="align-items: left;">
     <img id="ElecPl" class= "option" src="img/pregunta.png">
-    VS
+    <span style="font-weight: bolder;color: white;">VS</span>
     <img id="ElecJ" class="option" src="img/pregunta.png">
     <img id="fox" class="character" src="img/fox1.jpg" style="align-items: right;">
 </div><br><br>
@@ -34,5 +47,8 @@
     <button id="Tijera" onclick="tijera()">Tijera</button>
 </div>
 <h3 id="Marcador">Marcador <span id="marcadorpl">0</span> - <span id="marcadorpc">0</span></h3>
+</div>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
