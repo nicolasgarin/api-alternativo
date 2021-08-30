@@ -84,3 +84,8 @@ table {
     color: white;
     font-weight: bold;
 }
+
+#logo {
+    border-radius: 50%;
+    height: 2.6rem;
+}
