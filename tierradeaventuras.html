@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>BLUECRAB GAMES</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/estilo2.css" rel="stylesheet">
+
+</head>
+<body>
+    <div>
+        <nav class="navbar navbar-expand-sm bg-primary navbar-dark">       
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item acive">
+                  <a class="nav-link" href="minijuegos.html">Minijuegos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="nuestrosjuegos.html">Nuestros juegos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contacto</a>
+                </li>
+              </ul>
+              <img id="logo" src="img/BCGlogo2.png">
+        </nav>
+    </div>
+    <h3>Tierra de aventuras</h3>
+    <div>
+        <table style="float: left;">
+            <tr>
+                <td><img id="1" class="tablero" src="img/tierradeav/tilePl.png"></td>
+                <td></td>
+                <td></td>
+                <td><img id="10" class="tablero" src="img/tierradeav/tile.png"></td>
+                <td><img id="11" class="tablero" src="img/tierradeav/tile2.png"></td>
+                <td><img id="12" class="tablero" src="img/tierradeav/tile.png"></td>
+                <td><img id="13" class="tablero" src="img/tierradeav/tile-fire.png"></td>            
+            </tr>
+            <tr>
+                <td><img id="2" class="tablero" src="img/tierradeav/tile.png"></td>
+                <td></td>
+                <td></td>
+                <td><img id="9" class="tablero" src="img/tierradeav/orco.png"></td>
+                <td>Vida Orco: <span id="vidaOrco">6</span></td>
+                <td></td>
+                <td><img id="14" class="tablero" src="img/tierradeav/tile.png"></td>            
+            </tr>
+            <tr>
+                <td><img id="3" class="tablero" src="img/tierradeav/tile2.png"></td>
+                <td></td>
+                <td></td>
+                <td><img id="8" class="tablero" src="img/tierradeav/tile3.png"></td>
+                <td></td>
+                <td></td>
+                <td><img id="15" class="tablero" src="img/tierradeav/tile2.png"></td>            
+            </tr>
+            <tr>
+                <td><img id="4" class="tablero" src="img/tierradeav/tile-fire.png"></td>
+                <td><img id="5" class="tablero" src="img/tierradeav/tile.png"></td>
+                <td><img id="6" class="tablero" src="img/tierradeav/tile2.png"></td>
+                <td><img id="7" class="tablero" src="img/tierradeav/tile.png"></td>
+                <td></td>
+                <td></td>
+                <td><img id="16" class="tablero" src="img/tierradeav/tile-camp.png"></td>            
+            </tr>
+    
+        </table>
+        <table style="float: left;">
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><img id="17" class="tablero" src="img/tierradeav/tileb.png"></td>            
+            </tr>
+            <tr>
+                <td><img id="26" class="tablero" src="img/tierradeav/tileb.png"></td>            
+                <td><img id="25" class="tablero" src="img/tierradeav/tilebangel.png"></td>            
+                <td><img id="24" class="tablero" src="img/tierradeav/tileb3.png"></td>            
+                <td><img id="23" class="tablero" src="img/tierradeav/tileb.png"></td>            
+                <td><img id="22" class="tablero" src="img/tierradeav/tileb.png"></td>            
+                <td></td>
+                <td><img id="18" class="tablero" src="img/tierradeav/tileb2.png"></td>            
+            </tr>
+            <tr>
+                <td><img id="27" class="tablero" src="img/tierradeav/tileb.png"></td>            
+                <td></td>
+                <td>Vida Toro: <span id="vidaToro">5</span></td>
+                <td></td>
+                <td><img id="21" class="tablero" src="img/tierradeav/tileb.png"></td>            
+                <td><img id="20" class="tablero" src="img/tierradeav/tileblava.png"></td>            
+                <td><img id="19" class="tablero" src="img/tierradeav/tileb.png"></td>            
+            </tr>
+            <tr>
+                <td><img id="28" class="tablero" src="img/tierradeav/tileb3.png"></td>            
+                <td><img id="29" class="tablero" src="img/tierradeav/tileb2.png"></td>            
+                <td><img id="30" class="tablero" src="img/tierradeav/torodelava.png"></td>            
+                <td><img id="31" class="tablero" src="img/tierradeav/tileb.png"></td>            
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><img id="32" class="tablero" src="img/tierradeav/finish.png"></td>            
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+    
+        </table>
+        <div class="container">
+        <h4>Instrucciones</h4>
+        <p id="texto">
+            Cada vez que llegues a un evento, el mismo se desplegará en la pantalla a la derecha del dado. Espera unos segundos hasta que el evento se active y luego puedes volver a tirar el dado.
+        </p>
+    </div><br>
+    <div id="dice">
+        <button id="roll" onclick="boton()" >
+            Tirar Dado!
+        </button>
+        <img src="img/tierradeav/dado.png" width="100">
+        <button id="dadoresult" width="100">
+            -
+        </button>
+        <img id="pantalla" style="width: 20%;" src="img/tierradeav/Pl.png">
+        <div>
+            <p>Posición actual: <span id="PosPlayer">1</span></p>
+            <p>Salud: <span id="Salud">10</span></p>
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/tierradeaventura.js"></script>
+</body>
+</html>
