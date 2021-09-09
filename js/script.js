@@ -15,7 +15,7 @@ function cargarlistadojuegos(url) {
                 row = ` 
                     <tr>
                         <td>`  + listado[i].nombre + ` </td>
-                        <td style="width: 50px;background-color: rgb(161, 155, 241);">`  + listado[i].anio + ` </td>
+                        <td style="width: 50px;background-color: rgb(161, 155, 241);">`  + listado[i].año + ` </td>
                         <td style="width: 400px;">`  + listado[i].descripcion + `
                         <br><button onclick="verjuego(${listado[i].id})">Ver Juego</button> </td>
                         <td style="width: 50px;background-color: rgb(161, 155, 241);">USD `  + listado[i].precio + ` </td>
