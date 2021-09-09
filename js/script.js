@@ -16,7 +16,8 @@ function cargarlistadojuegos(url) {
                     <tr>
                         <td>`  + listado[i].nombre + ` </td>
                         <td style="width: 50px;background-color: rgb(161, 155, 241);">`  + listado[i].anio + ` </td>
-                        <td style="width: 400px;">`  + listado[i].descripcion + ` </td>
+                        <td style="width: 400px;">`  + listado[i].descripcion + `
+                        <br><button onclick="verjuego(${listado[i].id})">Ver Juego</button> </td>
                         <td style="width: 50px;background-color: rgb(161, 155, 241);">USD `  + listado[i].precio + ` </td>
                         <td><img style="height:150px;" src=` + listado[i].img + `></td>
                     </tr>
@@ -25,4 +26,9 @@ function cargarlistadojuegos(url) {
             }
         })
         .catch(error => alert("Hubo un error: " + error));
-    }
+}
+
+function verjuego(id) {
+    localStorage.setItem("Juego",JSON.stringify({juegoId: id}));
+    window.location = "info-juego.html";
+}

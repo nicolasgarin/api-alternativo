@@ -3,9 +3,11 @@ let posPl = 1;
 let salud = 10;
 let saludOrco = 6;
 let saludToro = 5;
+let nrotiradas = 0;
 
 function rolldice() {
     dado = (Math.round(Math.random()*5))+1;
+    nrotiradas += 1;
     document.getElementById("dadoresult").innerHTML = dado;
 }
 
@@ -23,7 +25,7 @@ function marcadorPos() {
 
 function vidaActual() {
     if (salud <= 0) {
-        alert("Te has quedado sin vida. Vuelve a empezar");
+        alert("Te has quedado sin vida. Vuelve a empezar. Número de tiradas: " + nrotiradas);
         resetAll();
     }
 }
@@ -36,6 +38,7 @@ function resetAll() {
     resettilePl();
     posPl = 1;
     salud = 10;
+    nrotiradas = 0;
     execposPl();
     marcadorSalud();
     saludOrco = 6;
@@ -64,7 +67,7 @@ function execposPl() {
         document.getElementById("pantalla").src = "img/tierradeav/orcoPl.png";
     }
     if (posPl === 16) {
-        document.getElementById(posPl).src = "img/tierradeav/tile-campPl.png";
+        document.getElementById(16).src = "img/tierradeav/tile-campPl.png";
         document.getElementById("pantalla").src = "img/tierradeav/tile-campPl.png"
     }
     if (posPl === 17 || posPl === 26 || posPl === 22 || posPl === 23 || posPl === 27 || posPl === 21 || posPl === 19 || posPl === 31) {
@@ -171,7 +174,7 @@ function eventsPl() {
         alert("Te enfrentas al gran toro de lava. Le quitas 2 puntos de vida, pero pierdes 5 y retrocedes 3 lugares");
     }
     if (posPl >= 32) {
-        alert("Ganaste!!");
+        alert("Ganaste!!. Número de tiradas: " + nrotiradas);
         resetAll();
     }
 }
