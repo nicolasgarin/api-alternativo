@@ -88,3 +88,4 @@ function resetmarcador() {
     setTimeout(restablece,2000);
     setTimeout(ganador,2000);
   }
+
